@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <header class="header">
+        <div class="header__wrapper">
+          <a href="/" class="logo-link">
+            <img class="logo" src="img/logo.png" alt="Logo">
+          </a> 
+          <nav class="nav">
+            <button type="button" class="button button--menu">
+              <span class="visually-hidden">Menu</span>
+              <svg class="button__icon button__icon--open" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="26" height="2" rx="1" fill="white"/>
+                <rect x="12" y="8" width="14" height="2" rx="1" fill="white"/>
+                <rect x="5" y="16" width="21" height="2" rx="1" fill="white"/>
+              </svg>
+              <svg class="button__icon button__icon--close" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="#fff">
+                    <path d="M14 12.3503L19.775 6.57532L21.4246 8.22498L15.6496 14L21.4246 19.775L19.775 21.4246L14 15.6496L8.22498 21.4246L6.57532 19.775L12.3503 14L6.57532 8.22498L8.22498 6.57532L14 12.3503Z" fill="white"/>
+                </g>
+              </svg>
+            </button>
+
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="">ГЛАВНАЯ</a></li>
+              <li class="nav__item"><a class="nav__link" href="">ГАЛЕРЕЯ</a></li>
+              <li class="nav__item"><a class="nav__link" href="">ПРОЕКТЫ</a></li>
+              <li class="nav__item"><a class="nav__link" href="">СЕРТИФИКАТЫ</a></li>
+              <li class="nav__item nav__item--last-child"><a class="nav__link" href="">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+        </div> 
+  </header>
+
+  <main class="main">
+    <section class="project-home">
+      <div class="project-home__wrapper">
+          <div class="project-nav">
+              <h1 class="project-nav__title">PROJECT <span class="project-nav__title--bold">HOME</span></h1>
+              <div class="project-nav__block">
+                <button type="button" class="project-nav__button project-nav__button--prev">
+                  <svg class="" width="36" viewBox="0 0 15.699 8.707"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.699 3.854H1.914L5.061.707 4.354 0 0 4.354l4.354 4.353L5.061 8 1.914 4.854h13.785z"/>  
+                  </svg>
+                </button>
+                <button type="button" class="project-nav__button project-nav__button--next">
+                  <svg class="" width="36" viewBox="0 0 15.698 8.706"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="m11.354 0-.708.706 3.14 3.147H0v1h13.786L10.646 8l.708.706 4.344-4.353z"/> 
+                  </svg>
+                </button>
+              </div>
+          </div>
+          <div class="project-foto">
+            <button type="button" class="btn btn--look"></button>
+          </div>
+      </div>
+    </section>
+
+    <section class="about-company">
+      <div class="about-company__wrapper">
+        <div class="about-company__content">
+          <h2 class="title">О компании</h2>
+          <div class="about-company__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+          <button type="button" class="btn btn--read"></button>
+        </div>
+        <div class="about-company__foto">
+          <ul class="about-company__foto-list">
+            <li class="about-company__foto-item about-company__foto-item--facade"></li>
+            <li class="about-company__foto-item about-company__foto-item--corner"></li>
+            <li class="about-company__foto-item about-company__foto-item--building"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tasks">
+      <div class="tasks__wrapper">
+        <h2 class="title title--tasks">Основные задачи</h2>
+        <ul class="tasks__list">
+          <li class="tasks__item tasks__item--one">Создание комфортных условий и повышение качества обслуживания клиентов</li>
+          <li class="tasks__item tasks__item--two">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="projects__wrapper">
+        <h2 class="title title--tasks">Наши проекты</h2>
+        <ul class="projects__list">
+          <li class="projects__item projects__item--center"></li>
+          <li class="projects__item projects__item--shell"></li>
+          <li class="projects__item projects__item--parking"></li>
+          <li class="projects__item projects__item--house"></li>
+          <li class="projects__item projects__item--holiday"></li>
+        </ul>
+        <div class="btn-wrapper">
+          <button type="button" class="btn btn--all-projects"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="connection">
+      <div class="connection__wrapper">
+        <h2 class="title title--connection">Связаться с нами</h2>
+        <div class="connection__content-wrapper">
+          <div class="connection__form-block">
+            <form>
+              <div class="form__input-fields">
+                <input placeholder=" " id="name" type="text" class="input input--total" autocomplete="off">
+                <label for="name">Ваше имя</label>
+              </div>
+  
+              <div class="form__input-fields">
+                <input placeholder=" " id="telefon" type="text" class="input input--total" autocomplete="off">
+                <label for="telefon">Номер телефона<span class="form__message">*</span></label>
+              </div>
+  
+              <div class="form__input-fields">
+                <input placeholder=" " id="e-mail" type="text" class="input input--total" autocomplete="off">
+                <label for="e-mail">E-mail<span class="form__message">*</span></label>
+              </div>
+  
+              <div class="form__input-fields">
+                <input placeholder=" " id="what-interesting" type="text" class="input input--total" autocomplete="off">
+                <label for="what-interesting">Интересующий товар/услуга</label>
+              </div>
+  
+              <div class="form__input-fields">
+                <textarea placeholder=" " id="message" class="input input--textarea" autocomplete="off"></textarea>
+                <label for="message">Сообщение<span class="form__message">*</span></label>
+              </div>
+            </form>
+            <p class="connection__agree">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+            <button type="button" class="btn btn--send"></button>
+          </div>
+          <div class="connection__picture"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__logo"></div>
+      <div class="footer__information-contacts-block">
+        <div class="footer__information">
+          <h6 class="footer__title">Информация</h6>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a class="footer__nav-link" href="">Главная</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="">Галерея</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="">Пзщекты</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="">Сертификаты</a></li>
+            <li class="footer__nav-item footer__nav-item--last-child"><a class="footer__nav-link" href="">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <h6 class="footer__title">Контакты</h6>
+          <ul class="footer__contacts-list">
+            <li class="footer__contacts-item footer__contacts-item--location"><a href="" class="footer__link">100000, Республика  Казахстан, 
+              г. Караганда, ул. Телевизионная 10</a></li></li>
+            <li class="footer__contacts-item footer__contacts-item--telefon"><a href="tel:+38 (000) 000 00 00" class="footer__link">+38 (000) 000 00 00</a></li>
+            <li class="footer__contacts-item footer__contacts-item--e-mail"><a href="mailto:" class="footer__link">mail@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__networks">
+        <h6 class="footer__title">Социальные сети</h6>
+        <div class="footer__networks-icons">
+          <ul class="footer__icons-list">
+            <li class="footer__icon">
+              <a href="https://www.facebook.com">
+                <svg class="footer__svg" width="14" height="22">
+                  <use xlink:href="./img/stack/svg/sprite.stack.svg#facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__icon">
+              <a href="https://www.twitter.com">
+                <svg class="footer__svg" width="22" height="20">
+                  <use xlink:href="./img/stack/svg/sprite.stack.svg#twitter" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__icon">
+              <a href="https://www.linkedin.com">
+                <svg class="footer__svg" width="16" height="16">
+                  <use xlink:href="./img/stack/svg/sprite.stack.svg#linkedin" />
+                </svg>
+              </a>
+            </li>
+            <li class="footer__icon">
+              <a href="https://www.pinterest.com">
+                <svg class="footer__svg" width="15" height="20">
+                  <use xlink:href="./img/stack/svg/sprite.stack.svg#pinterest" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__rights">
+      <p class="footer__rights-text">© 2019 Digital Project. Все права защищены.</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

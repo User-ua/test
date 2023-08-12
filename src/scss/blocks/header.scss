@@ -1,0 +1,42 @@
+.header {
+    &__wrapper {
+        margin-left: 10px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 102px;
+    }
+}
+
+.logo {
+    width: 70px;
+    height: 43.71px;
+    margin-top: 10px;
+    margin-bottom: 31.33px;
+}
+
+@media (min-width: 700px) {
+    .header {
+        &__wrapper {
+            display: flex;
+            height: 102px;
+        }
+    }
+
+    .logo {
+        width: 70px;
+        height: 43.71px;
+        margin-top: 29.14px;
+    }
+}
+
+@media (min-width: 1110px) {
+    .header {
+        max-width: 1440px;
+        &__wrapper {
+            max-width: 1170px;
+            margin: 0 auto;
+            justify-content: left;
+        }
+    }
+}
