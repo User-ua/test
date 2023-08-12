@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gulp deploy"
+    "deploy": "gulp deploy",
+    "start": "gulp"
   },
   "author": "user-ua",
   "license": "ISC",
