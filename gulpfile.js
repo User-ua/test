@@ -83,9 +83,9 @@ const dev = gulp.series(reset, mainTasks, gulp.parallel(watcher, server));
 
 gulp.task('default', dev)
 
-import main from 'gulp-gh-pages';
+import ghPages from 'gulp-gh-pages';
 
 gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
-    .pipe(main());
+    .pipe(ghPages());
 });
